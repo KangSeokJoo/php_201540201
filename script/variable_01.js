@@ -22,6 +22,6 @@ console.log(bar);
 console.log(typeof age);
 
 let temp = 20.5;
-const name2 = "현재 온도는 $(temp) 입니다.";
+const name2 = `현재 온도는 $(temp) 입니다.`;
 
 console.log(name2);
