@@ -13,6 +13,6 @@ if(!function_exists()) {
 
 //선언은 2번 선언 안됌
 
-//호출
+//호출 2번은 쌉가능
 hello();
 hello();
