@@ -8,7 +8,7 @@ class daelim
         // $this->hello();
     } // __CLASS__ 는 $this 란 비슷하다볼수있음
 
-    public function hello()
+    final public function hello()
     {
         echo "학교가 너무 높아요..<br>";
     }
@@ -20,10 +20,10 @@ class food extends daelim
         echo "맛이 없어요<br>";
     }
 
-    public function hello()
-    {
-        echo "학교가 너무 멀어요..<br>";
-    }
+    // public function hello()
+    // {
+    //     echo "학교가 너무 멀어요..<br>";
+    // }
 }
 
 //default 객체
