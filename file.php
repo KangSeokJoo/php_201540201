@@ -15,7 +15,7 @@ function files($path){
         }
         if(is_dir($files[$i])){
             echo "<b>".$files[$i]."</b><br>";
-            files($path.DIRECTORY_SEPARATOR."$files[$i]");
+            // files($path.DIRECTORY_SEPARATOR."$files[$i]");
         }else{
             echo "".$files[$i]."<br>";
         }
