@@ -16,7 +16,7 @@ $db = new Database($config);
 // database 클래스에 Table 프로퍼티 갖구와서 거기에 Table 클래스 객체생성
 
 $db->getTable()->createTable(
-    "members2",
+    "members2", // << $name
     [
         'Last'=>"varchar(50)",
         'First'=>"varchar(50)",
